@@ -1,6 +1,11 @@
-body{
-    margin :0;
-    background:pink;
-    text-align:center;
-
+.container {
+    display: flex;
+    justify-content: center; /* 居中排列图片 */
+    align-items: center;
+    height: 100vh; /* 占据整个屏幕高度 */
+}
+.container img {
+    margin: 0 10px; /* 两张图片之间的间距 */
+    max-width: 100%; /* 保持图片的宽度自适应 */
+    height: auto;
 }
